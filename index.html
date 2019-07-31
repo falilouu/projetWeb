@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title></title>
+</head>
+
+<body>
+
+	<header>
+		<div class="container-fluid">
+			<!-- <img src="md-im.jpg" class="img-responsive top-img">
+			 -->
+			 <br>
+			 <br>
+		</div>
+		<div class="container">
+		<nav class="navbar navbar-default my-navbar">
+				<div class="container-fluid">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+						<a class="navbar-brand" href="#">Accueil</a>
+					</div>
+				
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="#">Dossiers <span class="sr-only">(current)</span></a></li>
+						<li><a href="#">Link</a></li>
+						<li> <a href="#"></a> </li><button type="button" class="btn btn-default navbar-btn">Inscription</button>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#">Link</a></li>
+					</ul>
+					</div><!-- /.navbar-collapse -->
+				</div><!-- /.container-fluid -->
+		</nav>
+			
+		</div>
+	</header>
+
+	<section>
+		<div class="container section">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="panel panel-default panel-principal">
+						<div class="panel-heading panel-titre"><h1>Dossier d'inscription administrative</h1></div><br>
+						<div class="panel-body">
+							<form action="">
+								<div class="panel panel-default all-panel">
+									<div class="panel-heading panel-champ"> <h4>Identification</h4></div>
+									<div class="panel-body">
+										<div class="row">
+											<div class="form-group col-md-2">
+												<label for="inputNom">Nom</label>
+												<input type="text" class="form-control" id="inputNom" name="" placeholder="Nom">
+											</div>
+											<div class="form-group col-md-2">
+												<label for="inputPrenom">Prenom</label>
+												<input type="text" class="form-control" id="inputPrenom" name="" placeholder="Prenom">
+											</div>
+											<div class="form-group col-md-2">
+												<label>Civilite</label>
+												<select name="" id="inputCivilite" class="form-control">
+													<option value="">M</option>
+													<option value="">Mme</option>
+													<option value="">Mlle</option>
+												</select>
+											</div>
+											<div class="form-group col-md-3">
+												<label for="inputDatenaiss">Date de naissance</label>
+												<input type="date" class="form-control" id="inputDatenaiss" name="">
+											</div>
+											<div class="form-group col-md-3">
+												<label for="inputCNI">CNI</label>
+												<input type="number" class="form-control" id="inputCNI" name="">
+											</div>
+										</div>
+										<div class="row">
+											<div class="form-group col-md-3">
+												<label for="inputINE">INE</label>
+												<input type="text" class="form-control" id="inputINE" name="">
+											</div>
+											<div class="form-group col-md-3">
+												<label for="inputNumEtu">Numero carte d'etudiant</label>
+												<input type="number" class="form-control" id="inputNumEtu" name="">
+											</div>
+											<div class="form-group col-md-3">
+												<label for="inputPays">Pays de naissance</label>
+												<input type="text" class="form-control" id="inputPays" name="">
+											</div>
+											<div class="form-group col-md-3">
+												<label for="inputNationalite">Nationalite</label>
+												<input type="text" class="form-control" id="inputNationalite" name="">
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="panel panel-default all-panel">
+									<div class="panel-heading panel-champ"><h4>Adresse actuelle</h4></div>
+									<div class="panel-body">
+										<div class="row">
+											<div class="form-group col-md-4">
+												<label for="inputAdresseP">Adresse principale</label>
+												<input type="text" class="form-control" id="inputAdresseP" name="">
+											</div>
+											<div class="form-group col-md-4">
+												<label for="inputAdresseS">Adresse secondaire</label>
+												<input type="text" class="form-control" id="inputAdresseS" name="">
+											</div>
+											<div class="form-group col-md-3">
+												<label for="inputEmail">Email</label>
+												<input type="text" class="form-control" id="inputEmail" name="">
+											</div>
+										</div>
+										<div class="row">
+											<div class="form-group col-md-3">
+												<label for="inputTelephone">Telephone</label>
+												<input type="text" class="form-control" id="inputTelephone" name="">
+											</div>
+											<div class="form-group col-md-3">
+												<label for="inputEmailP">Email personnel</label>
+												<input type="email" class="form-control" id="inputEmailP" name="">
+											</div>
+											<div class="form-group col-md-3">
+												<label for="inputEmailI">Email institutionnel</label>
+												<input type="email" class="form-control" id="inputEmailI" name="">
+											</div>
+											<div class="form-group col-md-2">
+												<label for="inputBP">Boite postale</label>
+												<input type="text" class="form-control" id="inputBP" name="">
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="panel panel-default all-panel">
+									<div class="panel-heading panel-champ"><h4>Emploi</h4></div>
+									<div class="panel-body">
+										<div class="row">
+											<div class="col-md-3"><h5><b>Activite salarie</b></h5>
+												<div class="radio">
+													<label>
+														<input type="radio" name="emploi_radio" id="not_salaried" value="emploi_option1" checked>
+														Non
+													</label>
+												</div>
+												<div class="radio">
+													<label>
+														<input type="radio" name="emploi_radio" id="salaried" value="emploi_option2">
+														Oui
+													</label>
+												</div>
+											</div>
+											<div class="col-md-4">
+												<label>Statut etudiant</label>
+												<select name="statut_etu" id="inputStatut_etu" class="form-control">
+													<option value="rn">Regime normal</option>
+													<option value="rs">Regime salarie</option>
+													<option value="rp">Regime particulier</option>
+													<option value="stage">Mise en position de stage</option>
+												</select>
+											</div>
+											<div class="form-group col-md-4">
+												<label for="inputCatpro">Categorie socioprofessionelle</label>
+												<input type="text" class="form-control" id="inputCatpro" name="">
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="panel panel-default all-panel">
+									<div class="panel-heading panel-champ"> <h4>Situation familiale</h4></div>
+									<div class="panel-body">
+										<div class="row">
+											<div class="form-group col-md-4">
+												<label>Situation matrimoniale</label>								
+												<select name="situation_matri" id="inputSituation_matri" class="form-control">
+													<option value="">Marie</option>
+													<option value="">Celibataire</option>
+													<option value="">Veuf</option>
+												</select>
+											</div>
+											<div class="form-group col-md-3">
+												<label for="inputNb_enfant">Nombre d'enfants</label>
+												<input type="number" class="form-control" id="inputNb_enfant" name="">
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="panel panel-default all-panel">
+									<div class="panel-heading panel-champ"><h4>Bourses</h4></div>
+									<div class="panel-body">
+										<div class="row">
+											<div class="form-group col-md-3">
+												<label for="inputBourse">Bourse</label>
+												<div class="radio">
+													<label>
+														<input type="radio" id="inputBourse1" name="inputBourse" value="nonBoursier" checked>Non Boursier
+													</label>
+												</div>
+												<div class="radio">
+													<label>
+														<input type="radio" id="inputBourse2" name="inputBourse" value="boursier"> Boursier	
+													</label>
+												</div>
+												<div class="radio">
+													<label>
+														<input type="radio" id="inputBourse3" name="inputBourse" value="etranger"> Etranger
+													</label>
+												</div>
+												<div class="radio">
+													<label>
+														<input type="radio" id="inputBourse4" name="inputBourse" value="etrangerExonere"> Etranger exonere
+													</label>
+												</div>
+												<div class="radio">
+													<label>
+														<input type="radio" id="inputBourse5" name="inputBourse" value="etrangerTN"> Etranger tarif normal
+													</label>
+												</div>
+											</div>
+											<div class="form-group col-md-4">
+												<label>Nature de la bourse</label>
+												<div class="radio">
+														<label>
+															<input type="radio" id="inputNatBourse1" name="inputNatBourse" value="bourseNationale" checked> Nationale
+														</label>
+												</div>
+												<div class="radio">
+														<label>
+															<input type="radio" id="inputNatBourse2" name="inputNatBourse" value="bourseEtrangere"> Etrangere de l'etablissement
+														</label>
+												</div>
+											</div>
+											<div class="form-group col-md-3">
+												<label for="inputMontBourse">Montant bourse</label>
+												<input type="number" class="form-control" id="inputMontBourse" name="">
+											</div>
+										</div>
+									</div>
+								</div>	
+								<div class="panel panel-default  all-panel">
+									<div class="panel-heading panel-champ"> <h4>Contact (Personne à contacter/Responsable)</h4></div>
+									<div class="panel-body">
+										<div class="row">
+											<div class="form-group col-md-2">
+												<label for="inputNomCtct">Nom</label>
+												<input type="text" class="form-control" id="inputNomCtct" name="" placeholder="Nom">
+											</div>
+											<div class="form-group col-md-2">
+												<label for="inputPrenomCtct">Prenom</label>
+												<input type="text" class="form-control" id="inputPrenomCtct" name="" placeholder="Prenom">
+											</div>
+											<div class="form-group col-md-4">
+												<label for="inputAdresseCtct">Adresse</label>
+												<input type="text" class="form-control" id="inputAdresseCtct" name="">
+											</div>
+											<div class="form-group col-md-4">
+												<label for="inputVilleCtct">Ville</label>
+												<input type="text" class="form-control" id="inputVilleCtct" name="">
+											</div>
+											<div class="form-group col-md-3">
+												<label for="inputTelephoneCtct">Telephone portable</label>
+												<input type="text" class="form-control" id="inputTelephoneCtct" name="">
+											</div>
+											<div class="form-group col-md-3">
+												<label for="inputTelephoneFixe">Telephone fixe</label>
+												<input type="text" class="form-control" id="inputTelephoneFixe" name="">
+											</div>
+											<div class="form-group col-md-3">
+												<label for="inputEmailPCtct">Email personnel</label>
+												<input type="email" class="form-control" id="inputEmailPCtct" name="">
+											</div>
+											<div class="form-group col-md-3">
+												<label for="inputFax">Fax</label>
+												<input type="text" class="form-control" id="inputFax" name="">
+											</div>
+											<div class="form-group col-md-2">
+												<label for="inputBP">Boite postale</label>
+												<input type="number" class="form-control" id="inputBP" name="">
+											</div>
+											<div class="form-group col-md-3">
+												<label for="inputResp">Responsable etudiant</label>
+												<input type="text" class="form-control" id="inputResp" name="">
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-md-2 col-xs-8 col-md-offset-4">
+										<button class="btn btn-success btn-lg my-button">Valider</button>
+									</div>
+									<div class="col-md-2 col-xs-4">
+										<button class="btn btn-danger btn-lg my-button">Annuler</button>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+<footer>
+	
+</footer>
+</body>
+
+</html>

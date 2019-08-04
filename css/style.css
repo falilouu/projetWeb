@@ -48,8 +48,15 @@ h4
 }
 .top-img
 {
+	text-align: center;
 	max-height: 200px;
-	min-width: 1318px;
+	min-width: 200px;
+	border-radius: 50%;
+}
+.top
+{
+	text-align: center;
+	border-radius: 15px;
 }
 .navbar-nav > li > a
 {
